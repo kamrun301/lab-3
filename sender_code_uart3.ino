@@ -15,9 +15,9 @@ void setup() {
   delay(1000);
 
   // Change these manually for each test run
-  int baud = 38400;  // (9600, 38400, 115200)
-  msgSize = 50;     // (10, 50, 100)
-  msgInterval = 10;  // (0, 10, 100)
+  int baud = 115200;  // (9600, 38400, 115200)
+  msgSize = 100;     // (10, 50, 100)
+  msgInterval = 100;  // (0, 10, 100)
 
   mySerial.begin(baud, SERIAL_8N1, RXD1, TXD1);
 
